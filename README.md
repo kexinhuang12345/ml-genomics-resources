@@ -76,38 +76,39 @@ We list tools, algorithms, data for this area. Feel free to make a pull request 
 109-114
 
 #### Task 5: Pathway analysis and prediction
-**Task Description** 
+**Task Description** Given the gene expression data for a phenotype and known gene relations, identify a set of genes corresponding to disease pathways.
 
 115-121
 
 ## Machine Learning for Genomics in Therapeutics Discovery
-### Theme 1: Towards Precision Medicine
+
+### Theme 1: Improving Context-specific Drug Response
 
 #### Task 1: Drug Response Prediction
-**Task Description** 
+**Task Description** Given a pair of drug compound molecular structure and gene expression profile of the cell line, predict the drug response in this context
 
 123-130
 
 #### Task 2: Drug Combination Therapy Prediction
 
-**Task Description** 
+**Task Description** Given a combination of drug compound structures and a cell line’s genomics profile, predict the combination response.
 
 131-136
 
 ### Theme 2: Improving Efficacy and Delivery of Gene Therapy
 #### Task 1: CRISPR on-target outcome prediction
 
-**Task Description** 
+**Task Description** With a fixed target, given the gRNA sequence and other auxiliary information such as target gene expression and epigenetic profile, predict its on-target repair outcome.
 
 137-144
 
 #### Task 2: CRISPR off-target prediction
-**Task Description** 
+**Task Description** Given the gRNA sequence and the off-target DNA sequence, predict its off-target effect.
 
 145-152
 
 #### Task 3: Virus vector design
-**Task Description** 
+**Task Description** Given a set of virus sequences and their labels for a property X, obtain an accurate predictor oracle and conduct various generation modeling to generate de novo virus variants with a high score in X and high diversity.
 
 153-155
 
@@ -117,26 +118,26 @@ We list tools, algorithms, data for this area. Feel free to make a pull request 
 ### Theme 1: Translating Preclinical Animal Models to Humans
 
 #### Task 1: Cross-species genotype-phenotype translation
-**Task Description** 
+**Task Description** : Given genotype-phenotype data of animals and only the genotype data of humans, train the model to fit phenotype from the genotype and transfer this model to human. 
 
 157-162
 
 ### Theme 2: Curating High-quality Cohort
 
 #### Task 1: Patient stratification/disease sub-typing
-**Task Description** 
+**Task Description** Given the gene expression and other auxiliary information for a set of patients produce criteria for patient stratification.
 
 165-173
 
 #### Task 2: Matching patients for genome-driven trials
-**Task Description** 
+**Task Description** Given a pair of patient data (genomics, EHR, etc.) and trial eligibility criteria (text description), predict the matching likelihood.
 
 174-179
 
 ### Theme 3: Inferring Causal Effects
 
 #### Task 1: Mendelian randomization
-**Task Description**
+**Task Description** Given observation data of the genomic factor, exposure, outcome, and other auxiliary information formulate or identify the causal relations among them and compute the effect of the exposure to the outcome.
 
 180-184
 
@@ -144,10 +145,11 @@ We list tools, algorithms, data for this area. Feel free to make a pull request 
 ### Theme 1: Mining Real-World Evidence
 
 #### Task 1: Mining genomics-related markers from clinical free texts
-**Task Description** 
+**Task Description**  Given a clinical note document, predict the genomic biomarker variable of interest.
 
 185-189
 
 #### Task 2: Discovering drug-gene/disease-gene interactions from scientific literature
-**Task Description**
+**Task Description** Given a document from literature, extract the drug-gene, drug-disease terms, and predict the interaction types from the text.
+
 190-199
