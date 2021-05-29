@@ -20,6 +20,25 @@ We list tools, algorithms, data for this area. Feel free to make a pull request 
 
 67, 68, 66, 69, 70, 41, 71
 
+[Jian Zhou and Olga G Troyanskaya. Predicting effects of noncoding variants with deep learning–based
+sequence model. Nature Methods, 12(10):931–934, 2015.](https://pubmed.ncbi.nlm.nih.gov/26301843/)
+
+[Babak Alipanahi, Andrew Delong, Matthew T Weirauch, and Brendan J Frey. Predicting the sequence specificities of dna-and rna-binding proteins by deep learning. Nature Biotechnology, 33(8):831–838, 2015.](https://www.nature.com/articles/nbt.3300)
+
+[Martin Kircher, Daniela M Witten, Preti Jain, Brian J O’Roak, Gregory M Cooper, and Jay Shendure. A
+general framework for estimating the relative pathogenicity of human genetic variants. Nature Genetics,
+46(3):310–315, 2014.](https://pubmed.ncbi.nlm.nih.gov/24487276/)
+
+[69] David R Kelley, Jasper Snoek, and John L Rinn. Basset: learning the regulatory code of the accessible
+genome with deep convolutional neural networks. Genome Research, 26(7):990–999, 2016.
+
+[70] Qinhu Zhang, Lin Zhu, and De-Shuang Huang. High-order convolutional neural network architecture
+for predicting dna-protein binding sites. IEEE/ACM transactions on Computational Biology and
+Bioinformatics, 16(4):1184–1192, 2018.
+
+[71] Zhen Cao and Shihua Zhang. Simple tricks of convolutional neural network architectures improve
+dna–protein binding prediction. Bioinformatics, 35(11):1837–1843, 2019.
+
 
 #### Task 2: Methylation state prediction
 
