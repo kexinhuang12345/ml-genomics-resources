@@ -14,11 +14,15 @@ We list tools, algorithms, data for this area. Feel free to make a pull request 
 
 ### Theme 1: Facilitating Understanding of Human Biology
 
+![human_bio](figs/fig5.pdf)
+
+
 #### Task 1: DNA-protein and RNA-protein binding prediction
 
 **Task Description** Given a set of DNA/RNA sequences predict their binding scores. After training,use feature importance attribution methods to identify the motifs. 
 
-67, 68, 66, 69, 70, 41, 71
+
+**Papers**
 
 [Jian Zhou and Olga G Troyanskaya. Predicting effects of noncoding variants with deep learning–based
 sequence model. Nature Methods, 12(10):931–934, 2015.](https://pubmed.ncbi.nlm.nih.gov/26301843/)
@@ -29,22 +33,28 @@ sequence model. Nature Methods, 12(10):931–934, 2015.](https://pubmed.ncbi.nlm
 general framework for estimating the relative pathogenicity of human genetic variants. Nature Genetics,
 46(3):310–315, 2014.](https://pubmed.ncbi.nlm.nih.gov/24487276/)
 
-[69] David R Kelley, Jasper Snoek, and John L Rinn. Basset: learning the regulatory code of the accessible
-genome with deep convolutional neural networks. Genome Research, 26(7):990–999, 2016.
+[David R Kelley, Jasper Snoek, and John L Rinn. Basset: learning the regulatory code of the accessible
+genome with deep convolutional neural networks. Genome Research, 26(7):990–999, 2016.](https://pubmed.ncbi.nlm.nih.gov/27197224/)
 
-[70] Qinhu Zhang, Lin Zhu, and De-Shuang Huang. High-order convolutional neural network architecture
+[Qinhu Zhang, Lin Zhu, and De-Shuang Huang. High-order convolutional neural network architecture
 for predicting dna-protein binding sites. IEEE/ACM transactions on Computational Biology and
-Bioinformatics, 16(4):1184–1192, 2018.
+Bioinformatics, 16(4):1184–1192, 2018.](https://ieeexplore.ieee.org/document/8325519)
 
-[71] Zhen Cao and Shihua Zhang. Simple tricks of convolutional neural network architectures improve
-dna–protein binding prediction. Bioinformatics, 35(11):1837–1843, 2019.
+[Zhen Cao and Shihua Zhang. Simple tricks of convolutional neural network architectures improve
+dna–protein binding prediction. Bioinformatics, 35(11):1837–1843, 2019.](https://pubmed.ncbi.nlm.nih.gov/30351403/)
+
+
+**Datasets**
+
+[Zeng et al.](http://cnn.csail.mit.edu/)
 
 
 #### Task 2: Methylation state prediction
 
 **Task Description** For a DNA/RNA position with missing methylation status, given its availableneighboring methylation states and the DNA/RNA sequence, predict the methylation status on the positionof interest. 
 
-72-77
+**Papers**
+
 
 #### Task 3: RNA splicing prediction
 
