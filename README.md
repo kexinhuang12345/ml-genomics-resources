@@ -2,8 +2,8 @@
 
 This repo accompanies our survey paper: 
 
-[Machine Learning Applications for Therapeutic Tasks with Genomics Data](https://arxiv.org/abs/2105.01171).
-*Kexin Huang, Cao Xiao, Lucas M. Glass, Cathy W. Critchlow, Greg Gibson, Jimeng Sun*
+[Machine Learning Applications for Therapeutic Tasks with Genomics Data](https://www.cell.com/patterns/pdf/S2666-3899(21)00176-8.pdf).
+*Kexin Huang, Cao Xiao, Lucas M. Glass, Cathy W. Critchlow, Greg Gibson, Jimeng Sun* Published in Patterns.
 
 We list tools, algorithms, data for this area. Feel free to make a pull request for new resources.
 
